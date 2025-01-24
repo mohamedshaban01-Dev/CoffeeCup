@@ -6,7 +6,7 @@
     font-size: small;
 }
 
-body {
+body#mainHome {
     background-image: url("image/Background.png");
     display: grid;
     grid-template-columns: 1fr;
@@ -132,6 +132,67 @@ div.img {
 div.img img {
     width: 95%;
     height: 95%;
+}
+#formOrder{
+    border: #df4a0f97 solid 2px;
+    background-image: url('image/vertical-shot-printed-cup-full-roasted-coffee-beans-isolated-dark-wall.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        height: auto;
+        font-size: smaller;
+   
+}
+#formOrder main{
+    background-color: rgba(1, 1, 46, 0.415);
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-items: center;
+}
+ 
+Form {
+ background-color: #df4a0f49;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+    height: 80%;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+Form input {
+    padding: 10px;
+    width: 55%;
+    height: auto;
+    border-radius: 10px;
+    border: #df4a0f97 solid 2px;
+    background-color: #df4a0f00;
+
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+Form button {
+    width: 15vh;
+    background-color: #df4a0f00;
+    padding: 5px;
+    border: #df4a0f97 solid 2px;
+    border-radius: 10px;
+}
+
+Form button:hover {
+    background-color:#df4a0f97 ;
+    transition: 400ms;
 }
 
 /* end section two  */
