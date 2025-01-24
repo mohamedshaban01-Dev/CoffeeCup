@@ -1,7 +1,7 @@
 const ordertabe = document.getElementById("order");
+const form = document.getElementById("form");
 
 
 ordertabe.addEventListener("click", () => {
-    window.open('orderNow.html', '_blank', 'width=600,height=400');
-
+    form.style.display = "block";
 });

@@ -133,6 +133,20 @@ div.img img {
     width: 95%;
     height: 95%;
 }
+div#form{
+display: none;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100vw;
+height: 100vh;
+z-index: 9999;
+
+
+}
+
 #formOrder{
     border: #df4a0f97 solid 2px;
     background-image: url('image/vertical-shot-printed-cup-full-roasted-coffee-beans-isolated-dark-wall.jpg');
@@ -140,11 +154,14 @@ div.img img {
         background-repeat: no-repeat;
         background-size: cover;
         overflow: hidden;
-        height: auto;
+      
         font-size: smaller;
+        width: 100vw;
+       
    
 }
-#formOrder main{
+#formOrder .main{
+ 
     background-color: rgba(1, 1, 46, 0.415);
     overflow: hidden;
     width: 100vw;
@@ -153,6 +170,7 @@ div.img img {
     grid-template-columns: 1fr;
     align-items: end;
     justify-items: center;
+ 
 }
  
 Form {
