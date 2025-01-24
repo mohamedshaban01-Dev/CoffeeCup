@@ -39,7 +39,7 @@ main {
     grid-template-columns: 1fr;
     width: 90vw;
     gap: 5vh;
-    align-self:center ;
+    align-self: center;
     justify-self: center;
 }
 
@@ -73,7 +73,7 @@ div.text #title {
     font-weight: 500;
     font-style: italic;
     font-family: "Cormorant Garamond";
-     
+
 }
 
 div.text button {
@@ -83,7 +83,8 @@ div.text button {
     padding: 5px;
     border: #df4b0f 2px solid;
 }
-div.icon{
+
+div.icon {
     width: 150px;
 
     display: flex;
@@ -92,31 +93,35 @@ div.icon{
     justify-content: space-evenly;
 
 }
-div.icon i{
- color:#df4a0f72;
+
+div.icon i {
+    color: #df4a0f72;
     width: 20%;
-  
+
 
 }
+
 /* end section one  */
 
 /* ------------------------ */
 
 /* start section two  */
 section#two {
-    
+
     width: auto;
     height: auto;
     display: grid;
     justify-content: center;
- 
+
 }
-div.img-all{
+
+div.img-all {
     width: 100%;
-        height: auto;
-        display: grid;
-        justify-content: center;
+    height: auto;
+    display: grid;
+    justify-content: center;
 }
+
 div.img {
     width: 70vw;
     border-radius: 100%;
@@ -133,35 +138,37 @@ div.img img {
     width: 95%;
     height: 95%;
 }
-div#form{
-display: none;
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-width: 100vw;
-height: 100vh;
-z-index: 9999;
+
+div#form {
+    display: none;
+    position: absolute;
+    top: 2vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
 
 
 }
 
-#formOrder{
+#formOrder {
+    background-color: #df4a0f30;
     border: #df4a0f97 solid 2px;
-    background-image: url('image/vertical-shot-printed-cup-full-roasted-coffee-beans-isolated-dark-wall.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: hidden;
-      
-        font-size: smaller;
-        width: 100vw;
-       
-   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    font-size: smaller;
+    width: 100vw;
+
+
 }
-#formOrder .main{
- 
+
+#formOrder .main {
+
     background-color: rgba(1, 1, 46, 0.415);
     overflow: hidden;
     width: 100vw;
@@ -170,15 +177,15 @@ z-index: 9999;
     grid-template-columns: 1fr;
     align-items: end;
     justify-items: center;
- 
+
 }
- 
+
 Form {
- background-color: #df4a0f49;
+    background-color: #df4a0f55;
     display: grid;
     grid-template-columns: 1fr;
     width: 60%;
-    height: 80%;
+    height: 90vh;
     gap: 15px;
     align-items: center;
     justify-items: center;
@@ -195,11 +202,13 @@ Form input {
     background-color: #df4a0f00;
 
 }
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 Form button {
     width: 15vh;
     background-color: #df4a0f00;
@@ -209,7 +218,7 @@ Form button {
 }
 
 Form button:hover {
-    background-color:#df4a0f97 ;
+    background-color: #df4a0f97;
     transition: 400ms;
 }
 
@@ -218,69 +227,79 @@ Form button:hover {
 /* end main */
 @media (max-width:375px) {
     div.icon {
-            width: 115px;
-    
-            display: flex;
-            gap: 1%;
-            color: #df4a0f72;
-            justify-content: space-evenly;
-    
-        }
-    
+        width: 115px;
+
+        display: flex;
+        gap: 1%;
+        color: #df4a0f72;
+        justify-content: space-evenly;
+
+    }
+
 }
+
 @media (min-width:768px) {
 
-    main{
+    main {
         padding: 20px;
-         grid-template-columns: 1fr 1fr;
-         align-items: center;
-         justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
         width: 100%;
-        height: 100%;   
+        height: 100%;
     }
-    section#one{
-  
+
+    section#one {
+
         width: 50%;
     }
-    div.text div.content{
-      font-size: larger;
-      width: 80%;
-        }
-   div.text button{
-      width: 15VW;
-      max-width: 200px;
-       
+
+    div.text div.content {
+        font-size: larger;
+        width: 80%;
     }
-    section#two{
+
+    div.text button {
+        width: 15VW;
+        max-width: 200px;
+
+    }
+
+    section#two {
         width: 70%;
-      
+
     }
-    .img-all{
+
+    .img-all {
         width: 90%;
     }
-    div.img{
+
+    div.img {
         width: 100%;
         height: auto;
     }
-img{
-    width: 100%;
+
+    img {
+        width: 100%;
+    }
 }
-}
+
 @media (min-width:1100px) {
     div.icon {
-            width: 250px;
-    
-            display: flex;
-            gap: 1%;
-            color: #df4a0f72;
-            justify-content: space-evenly;
-    
-        }
-                div.icon i {
-                    color: #df4a0f72;
-                    width: 30%;
-        
-        
-                }
-    
+        width: 250px;
+
+        display: flex;
+        gap: 1%;
+        color: #df4a0f72;
+        justify-content: space-evenly;
+
+    }
+
+    div.icon i {
+        color: #df4a0f72;
+        width: 30%;
+
+
+    }
+
 }
